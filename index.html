@@ -1,1 +1,10 @@
-<h1>Woah!<h1/>
+<h1 id="text">Woah!<h1/>
+  <button id="click">Click me to change content! </button>
+  <script>
+  var btn = document.querySelector("#click");
+    var txt = document.querySelector("#text")
+    btn.onclick=function(){
+      txt.innerText = "This is a victory Website";
+    }
+  
+  </script>
